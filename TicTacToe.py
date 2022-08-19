@@ -43,7 +43,7 @@ def turno_jugador(letra_jugador):
         try:
             print("Turno del jugador " + str(letra_jugador) + " : ", end=' ')
             player_pos_r, player_pos_c = int(input()), int(input())
-        except:
+        except ValueError:
             print("Por favor introduzca números enteros en un rango válido")
             continue
 
