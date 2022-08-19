@@ -48,7 +48,6 @@ def turno_jugador(letra_jugador):
         while not (FILAS > player_pos_c >= 0 and FILAS > player_pos_r >= 0):
                 print("Valores fuera de rango, por favor introduce nuevos: ")
                 player_pos_r, player_pos_c = int(input()), int(input())
-            # player_pos_r, player_pos_c = int(input()), int(input())
 
         if board[player_pos_r, player_pos_c] != "-":
             print("Esa posicion ya está ocupada")
