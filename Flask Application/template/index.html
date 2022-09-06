@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}{% endblock %}
+{% block content %}{% endblock %}
+
+
+
+{% block search %}
+
+
+
+    <form action="#" method="POST">
+    <p>Origen</p>
+    <p><input list="cities" type="text" name="origen"></p>
+            <p>Destino</p>
+    <p><input list="cities" type="text" name="destino"></p>
+
+  <datalist id="cities">
+  <option value="Madrid">Madrid</option>
+  <option value="Barcelona">Barcelona</option>
+  <option value="Paris">Paris</option>
+  <option value="Frankfurt">Frankfurt</option>
+  <option value="Londres">Londres</option>
+  <option value="Roma">Roma</option>
+</datalist>
+
+<p><input type="submit" name="submit" value="Buscar"></p>
+</form>
+
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+Mis tickets
+
+
+<br>
+
+{% for item in values%}
+
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+Ticket
+  </div>
+    <p>Origen: {{item.origen}}</p>
+    <p>Destion: {{item.destino}}</p>
+</div>
+<br>
+
+
+
+</div>
+{% endfor %}
+
+{% endblock %}
