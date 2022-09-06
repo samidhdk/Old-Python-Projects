@@ -9,7 +9,7 @@ Detector de imagenes borrosas, latencia en servidor y clasificador de tweets. Ad
 - TicTacToe / Tres en raya para dos jugadores.
 
 # 06/09/2002:
-- Aplicación en Flask con SQLAlchemy.
+- Aplicación en Flask con SQLAlchemy (no Frontend).
 
   Aplicación extremadamente sencilla realizada en Flask para aprender sus pilares. Está conectada con a una BD usando SQLAlchemy.
   Se trata de una página de venta de tickets, donde el usuario selecciona origen y destino y obtiene un ticket; pero debe haber iniciado sesión previamente.
