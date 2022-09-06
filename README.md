@@ -8,7 +8,7 @@ Detector de imagenes borrosas, latencia en servidor y clasificador de tweets. Ad
 # 19/08/2022:
 - TicTacToe / Tres en raya para dos jugadores.
 
-#06/09/2002:
+# 06/09/2002:
 - Aplicación en Flask con SQLAlchemy.
 
   Aplicación extremadamente sencilla realizada en Flask para aprender sus pilares. Está conectada con a una BD usando SQLAlchemy.
