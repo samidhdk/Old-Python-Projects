@@ -20,5 +20,5 @@ Detector de imagenes borrosas, latencia en servidor y clasificador de tweets. Ad
 # 02/10/2002:
 - Aplicación que resuelve sudokus a partir de backtracking
 
-Solo lo he testeado con la version 9x9 que es, a mi parecer la más clasica. 
-Mi idea es añadir una UI para introducir números.
+  Solo lo he testeado con la version 9x9 que es, a mi parecer la más clasica. 
+  Mi idea es añadir una UI para introducir números.
