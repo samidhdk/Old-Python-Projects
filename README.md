@@ -15,3 +15,10 @@ Detector de imagenes borrosas, latencia en servidor y clasificador de tweets. Ad
   Se trata de una página de venta de tickets, donde el usuario selecciona origen y destino y obtiene un ticket; pero debe haber iniciado sesión previamente.
   Se da la opción de comprar ticket, ver los tickets comprados, iniciar sesión y salir.
   Estoy al tanto de los bugs (se comparten los tickets entre usuarios), pero esto es una primera fase experimental.
+
+
+# 02/10/2002:
+- Aplicación que resuelve sudokus a partir de backtracking
+
+Solo lo he testeado con la version 9x9 que es, a mi parecer la más clasica. 
+Mi idea es añadir una UI para introducir números.
