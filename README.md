@@ -24,11 +24,11 @@ Detector de imagenes borrosas, latencia en servidor y clasificador de tweets. Ad
   Mi idea es añadir una UI para introducir números.
   # 09/10/2002:
     - (NUEVO): Interface implementada:
-     Añadido un sistema para añadir numeros con clicks:
-        Click izquierdo para sumar 1 a la casilla
-        Click derecho para poner a 0 la casilla
-        "Roll" de la rueda del ratón para sumar 1 a la casilla en cada click (es un poco más rapido)
-     Añadido un botón para resolver el sudoku una vez puestos los números.
-     En caso de no tener solución salta un mensaje de error.
+     - Añadido un sistema para añadir numeros con clicks:
+        - Click izquierdo para sumar 1 a la casilla
+        - Click derecho para poner a 0 la casilla
+        - "Roll" de la rueda del ratón para sumar 1 a la casilla en cada click (es un poco más rapido)
+     - Añadido un botón para resolver el sudoku una vez puestos los números.
+     - En caso de no tener solución salta un mensaje de error.
      
      La base de la interfaz fue construida a partir de este tutorial: http://programarcadegames.com/index.php?lang=en&chapter=array_backed_grids
