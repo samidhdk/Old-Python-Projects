@@ -5,7 +5,7 @@
 # 19/08/2022:
 - TicTacToe / Tres en raya para dos jugadores.
 
-# 06/09/2002:
+# 06/09/2022:
 - Aplicación en Flask con SQLAlchemy (no Frontend).
 
   Aplicación extremadamente sencilla realizada en Flask para aprender sus pilares. Está conectada con a una BD usando SQLAlchemy.
@@ -14,12 +14,12 @@
   Estoy al tanto de los bugs (se comparten los tickets entre usuarios), pero esto es una primera fase experimental.
 
 
-# 02/10/2002:
+# 02/10/2022:
 - Aplicación que resuelve sudokus a partir de backtracking
 
   Solo lo he testeado con la version 9x9 que es, a mi parecer la más clasica. 
   Mi idea es añadir una UI para introducir números.
-  # 09/10/2002:
+  # 09/10/2022:
     - (NUEVO): Interface implementada:
      - Añadido un sistema para añadir numeros con clicks:
         - Click izquierdo para sumar 1 a la casilla
@@ -29,3 +29,6 @@
      - En caso de no tener solución salta un mensaje de error.
      
      La base de la interfaz fue construida a partir de este tutorial: http://programarcadegames.com/index.php?lang=en&chapter=array_backed_grids
+
+  # 01/04/2023:
+  - Se van a actualizar los siguientes proyectos: Imagenes borrosas (OpenCV), latencia en servidor (Jupyter Notebook) y clasificador de tweets.
