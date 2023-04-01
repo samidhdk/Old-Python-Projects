@@ -30,5 +30,5 @@
      
      La base de la interfaz fue construida a partir de este tutorial: http://programarcadegames.com/index.php?lang=en&chapter=array_backed_grids
 
-  # 01/04/2023:
-  - Se van a actualizar los siguientes proyectos: Imagenes borrosas (OpenCV), latencia en servidor (Jupyter Notebook) y clasificador de tweets.
+# 01/04/2023:
+- Se van a actualizar los siguientes proyectos: Imagenes borrosas (OpenCV), latencia en servidor (Jupyter Notebook) y clasificador de tweets.
