@@ -33,9 +33,6 @@ def main():
 
     images_to_process = []
 
-    # Crea el esqueleto de unicamente directorios, sin ficheros
-    shutil.copytree(image_folder,trash_folder,ignore=ignore_files)
-
     for ext in extensions:
         images_to_process.extend(image_folder.rglob(ext))
 
@@ -46,11 +43,12 @@ def main():
             with Image.open(image).convert('RGB') as img_PIL:
                 if is_blurred(img_PIL)[0]:
                     directory_position = image.__str__().replace(image_folder.__str__(), trash_folder.__str__())
+                    if not os.path.exists(directory_position):
+                        os.makedirs(os.path.dirname(directory_position))
                     shutil.move(image, directory_position)
             sleep(0.1)
             pbar.update(1)
 
-    remove_empty_folders(trash_folder)
 
 def is_blurred(image, threshold=90):
     imagecv = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
@@ -59,16 +57,6 @@ def is_blurred(image, threshold=90):
     variance = edgescv.var()
     return (variance < threshold, variance)
 
-
-def ignore_files(dir, files):
-    return [f for f in files if os.path.isfile(os.path.join(dir, f))]
-
-def remove_empty_folders(path_abs):
-    walk = list(os.walk(path_abs))
-    for path, _, _ in walk[::-1]:
-        if len(os.listdir(path)) == 0:
-            #os.remove(path)
-            shutil.rmtree(path)
 
 
 if __name__ == "__main__":
