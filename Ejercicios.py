@@ -82,7 +82,11 @@ def plus_minus(*args):
 
 
 def my_zip(*args):
-    print(" POR HACER")
+    min_length = len(min(args, key = len))
+    result = []
+    for i in range(min_length):
+        result.append(tuple(item[i] for item in args))
+    print(result)
 
 
 def dictionary(*args):
