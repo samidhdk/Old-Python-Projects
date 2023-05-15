@@ -152,10 +152,10 @@ def restaurante():
     cuenta = 0
 
     while True:
-        pedido = str(input("Order: "))
+        pedido = str(input("Order: ").lower())
         if not pedido:
             print(f"Your total is {cuenta}")
-            sys.exit()
+            break
         else:
             if pedido in menu:
                 cuenta += menu[pedido]
