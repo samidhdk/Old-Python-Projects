@@ -30,5 +30,5 @@
      
      La base de la interfaz fue construida a partir de este tutorial: http://programarcadegames.com/index.php?lang=en&chapter=array_backed_grids
 
-# 01/04/2023:
-- Se van a actualizar los siguientes proyectos: Imagenes borrosas (OpenCV), latencia en servidor (Jupyter Notebook) y clasificador de tweets.
+# 18/05/2023:
+  Actualizado el proyecto Blur_detector. Se trata de un gestor de imagenes que, dada una ruta con images y una ruta "papelera", mueve todas las imagenes borrosas del primer directorio al segundo.
