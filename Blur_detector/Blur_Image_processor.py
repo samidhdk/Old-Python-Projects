@@ -21,13 +21,14 @@ def main():
                         help="Path of the directory that contains the images to filter")
     parser.add_argument("-t", "--trash_folder", required=True,
                         help="Path of the directory that will recive the blurred images ")
-    parser.add_argument("-r", "--report_folder", required=True,
+    parser.add_argument("-r", "--report_folder", required=False,
                         help="Path of the .json file that will recive the report")
     args = parser.parse_args()
 
     image_folder = pathlib.Path(args.image_folder)
     trash_folder = pathlib.Path(args.trash_folder)
-    report_folder = pathlib.Path(args.report_folder)
+
+
 
     extensions = ["*.jpg", "*.jpeg", "*.png"]
 
@@ -60,8 +61,9 @@ def main():
             sleep(0.1)
             pbar.update(1)
     end_time = time.time() - start_time
-
-    generate_JSON_report(end_time, number_of_images, number_of_blurred_images, accepted, discarded, report_folder)
+    if args.report_folder is not None:
+        report_folder = pathlib.Path(args.report_folder)
+        generate_JSON_report(end_time, number_of_images, number_of_blurred_images, accepted, discarded, report_folder)
 
 
 def generate_JSON_report(elapsed_time, number_of_images, blurred_images, accepted, discarded, report_folder):
