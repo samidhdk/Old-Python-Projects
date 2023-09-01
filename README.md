@@ -10,8 +10,10 @@
 
   Aplicación extremadamente sencilla realizada en Flask para aprender sus pilares. Está conectada con a una BD usando SQLAlchemy.
   Se trata de una página de venta de tickets, donde el usuario selecciona origen y destino y obtiene un ticket; pero debe haber iniciado sesión previamente.
-  Se da la opción de comprar ticket, ver los tickets comprados, iniciar sesión y salir.
-  Estoy al tanto de los bugs (se comparten los tickets entre usuarios), pero esto es una primera fase experimental.
+  Se da la opción de comprar ticket, ver los tickets comprados, borrarlos, iniciar sesión y salir.
+   # 01/09/2023:
+     - Los tickets ya no se comparten entre usuario y se pueden borrar.
+  
 
 
 # 02/10/2022:
