@@ -9,9 +9,14 @@ Mis tickets
 {% for item in values%}
 
 <div class="card" style="width: 18rem;">
+
   <div class="card-header">
 Ticket
+      <form method="post" action="{{ url_for('eliminar_ticket', ticket_id=item.id) }}">
+    <p><input class="card" type="submit" name="borrar_ticket" value="Borrar" style="width: 4rem; float: right; background-color: tomato; color: black"></p>
+    </form>
   </div>
+
     <p>Origen: {{item.origen}}</p>
     <p>Destion: {{item.destino}}</p>
 </div>
