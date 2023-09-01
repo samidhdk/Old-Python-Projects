@@ -12,7 +12,7 @@
   Se trata de una página de venta de tickets, donde el usuario selecciona origen y destino y obtiene un ticket; pero debe haber iniciado sesión previamente.
   Se da la opción de comprar ticket, ver los tickets comprados, borrarlos, iniciar sesión y salir.
    # 01/09/2023:
-     - Los tickets ya no se comparten entre usuario y se pueden borrar.
+     - [BUG FIX] Los tickets ya no se comparten entre usuario y se pueden borrar.
   
 
 
