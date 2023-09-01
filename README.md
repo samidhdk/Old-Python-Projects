@@ -34,3 +34,6 @@
 
 # 18/05/2023:
   Actualizado el proyecto Blur_detector. Se trata de un gestor de imagenes que, dada una ruta con images y una ruta "papelera", mueve todas las imagenes borrosas del primer directorio al segundo.
+
+# 01/09/2023:
+  Añadido una carpeta como backup de scripts utilizados en los laboratorios de Portswigger (SQLI)
