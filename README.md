@@ -1,5 +1,5 @@
 # Antiguos proyectos: 
-- Imagenes borrosas, latencia en servidor y clasificador de tweets.
+- Latencia en servidor y clasificador de tweets.
 - Ejercicios cortos en Python del libro: "Python Workout: 50 ten-minute exercises"
 
 # 19/08/2022:
