@@ -11,10 +11,6 @@
   Aplicación extremadamente sencilla realizada en Flask para aprender sus pilares. Está conectada con a una BD usando SQLAlchemy.
   Se trata de una página de venta de tickets, donde el usuario selecciona origen y destino y obtiene un ticket; pero debe haber iniciado sesión previamente.
   Se da la opción de comprar ticket, ver los tickets comprados, borrarlos, iniciar sesión y salir.
-   # 01/09/2023:
-     - [BUG FIX] Los tickets ya no se comparten entre usuario y se pueden borrar.
-  
-
 
 # 02/10/2022:
 - Aplicación que resuelve sudokus a partir de backtracking
@@ -31,9 +27,6 @@
      - En caso de no tener solución salta un mensaje de error.
      
      La base de la interfaz fue construida a partir de este tutorial: http://programarcadegames.com/index.php?lang=en&chapter=array_backed_grids
-
-# 18/05/2023:
-  Actualizado el proyecto Blur_detector. Se trata de un gestor de imagenes que, dada una ruta con images y una ruta "papelera", mueve todas las imagenes borrosas del primer directorio al segundo.
 
 # 01/09/2023:
   Añadido una carpeta como backup de scripts utilizados en los laboratorios de Portswigger (SQLI)
