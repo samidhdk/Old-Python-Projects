@@ -13,7 +13,7 @@ It is a ticket purchase page. Includes a route to:
 - Buy tickets from one city to another.
 - Visualize the tickets, with the option to delete them.
 
-  It was a fine mini-project to explore the backend and suffer while bit using HTML and CSS.
+It was a fine mini-project to explore the backend and suffer while bit using HTML and CSS.
 
   ## Old-College-Exercises
 
