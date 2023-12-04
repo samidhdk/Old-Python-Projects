@@ -1,32 +1,6 @@
-# Antiguos proyectos: 
-- Latencia en servidor y clasificador de tweets.
-- Ejercicios cortos en Python del libro: "Python Workout: 50 ten-minute exercises"
+# My old Python Projects
 
-# 19/08/2022:
-- TicTacToe / Tres en raya para dos jugadores.
+This repository is used to store some of the Python projects I did in the past.
 
-# 06/09/2022:
-- Aplicación en Flask con SQLAlchemy (no Frontend).
+They are really simple and I have no plans to continue them, they were made to learns specific topics and nothing else.
 
-  Aplicación extremadamente sencilla realizada en Flask para aprender sus pilares. Está conectada con a una BD usando SQLAlchemy.
-  Se trata de una página de venta de tickets, donde el usuario selecciona origen y destino y obtiene un ticket; pero debe haber iniciado sesión previamente.
-  Se da la opción de comprar ticket, ver los tickets comprados, borrarlos, iniciar sesión y salir.
-
-# 02/10/2022:
-- Aplicación que resuelve sudokus a partir de backtracking
-
-  Solo lo he testeado con la version 9x9 que es, a mi parecer la más clasica. 
-  Mi idea es añadir una UI para introducir números.
-  # 09/10/2022:
-    - (NUEVO): Interface implementada:
-     - Añadido un sistema para añadir numeros con clicks:
-        - Click izquierdo para sumar 1 a la casilla
-        - Click derecho para poner a 0 la casilla
-        - "Roll" de la rueda del ratón para sumar 1 a la casilla en cada click (es un poco más rapido)
-     - Añadido un botón para resolver el sudoku una vez puestos los números.
-     - En caso de no tener solución salta un mensaje de error.
-     
-     La base de la interfaz fue construida a partir de este tutorial: http://programarcadegames.com/index.php?lang=en&chapter=array_backed_grids
-
-# 01/09/2023:
-  Añadido una carpeta como backup de scripts utilizados en los laboratorios de Portswigger (SQLI)
